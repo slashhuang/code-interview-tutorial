@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.shopee-countdown-timer-wrapper {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-item {
+    display: inline-block;
+    width: 19px;
+    height: 190px;
+    overflow: hidden;
+    background: #000;
+    transition: ease;
+}
+
+.count-down-item-wrapper {
+    border-radius: 2px;
+    height: 17px;
+    font-size: 17px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    max-width: 200px;
+    color: #fff;
+}
+
+.gap {
+    padding: 0 2px;
+    background: #fff;
+}
+
+.digit {
+    color: #fff;
+    height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
